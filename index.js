@@ -8,7 +8,7 @@ const express       = require('express'),
 //If ran in production - use enviroment PORT. In development, default to 8080
 const PORT = process.env.PORT || 8080;
 //The package name
-const PACKAGE_NAME = "Twitter";
+const PACKAGE_NAME = "ThePirateBay";
 
 //Initialize web server
 const app = express();
