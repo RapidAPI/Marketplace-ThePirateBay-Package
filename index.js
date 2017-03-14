@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({limit: '50mb', extended:true}));
 
 /** ENDPOINT **/
 //A metadata endpoint at GET /api/PACKAGE_NAME should return package metadata
-// app.get(`/api/${PACKAGE_NAME}`, require('./metadata.js').do);
+app.get(`/api/${PACKAGE_NAME}`, require('./metadata.js').do);
 
 //For each block, a POST /api/PACKAGE_NAME/BLOCK_NAME should execute the block
 app.post(`/api/${PACKAGE_NAME}/search`, require('./blocks/search.js').search);
