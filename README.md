@@ -22,7 +22,7 @@ Get a single torrent by ID
 |---------------|------------|----------
 | id            | String     | Pirate Bay torrent ID or torrent link
 
-## Pratebay.getTopTorrents
+## ThePiratebay.getTopTorrents
 Get top 100 torrents by category
 
 | Field         | Type       | Description
